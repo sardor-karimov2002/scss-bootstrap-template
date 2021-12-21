@@ -1,0 +1,11 @@
+.card{
+    background: url(/img/Bitmap.jpg);
+    background-repeat: no-repeat;
+    font-size: 100% 100%;
+    &__text{
+        color: #fff;
+    }
+    &__title{
+        color: #FFF;
+    }
+}

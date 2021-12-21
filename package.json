@@ -1,0 +1,22 @@
+{
+  "name": "lts.",
+  "version": "1.0.0",
+  "description": "See `npm help init` for definitive documentation on these fields",
+  "main": "scss-bootstrap-temlate",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sardor-karimov2002/scss-bootstrap-template.git"
+  },
+  "author": "Sardor Karimov,",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sardor-karimov2002/scss-bootstrap-template/issues"
+  },
+  "homepage": "https://github.com/sardor-karimov2002/scss-bootstrap-template#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
