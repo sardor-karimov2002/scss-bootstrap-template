@@ -1,0 +1,38 @@
+.block::before{
+    display: block;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    z-index: 1;
+}
+.block::after{
+    display: block;
+    position: absolute;
+    content: "";
+    width: 30%;
+    border: 1px solid;
+    z-index: 1;
+    bottom: 0;
+    bottom: 28px;
+    margin-left: 8px;
+    z-index: -1;
+}
+.block:nth-child(3):after{
+    display: none;
+}
+.box{
+    height: 72px;
+    left: 0%;
+    right: 64.56%;
+    top: calc(50% - 72px/2 - 141.5px);
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+
+
+    color: #FDD6BA;
+}
